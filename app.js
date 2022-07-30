@@ -21,7 +21,7 @@ app.use(express.static("public"));
 const SpeciesIntro = " There is enormous variety in the way a dog acts and reacts to the world around them. Those differences can be due to how much socialization and handling they received as a youngster, how well the owner trained them after taking them home, and of course the genetic luck of the draw. In the end, your dog's preferences and personality are as individual as you are and if you can accept that, you're bound to enjoy each other's companionship for life.";
 
 
-mongoose.connect(DB_URL);
+mongoose.connect("mongodb+srv://bryondickers:XfsbOdyKJSIY7vK4@cluster0.jodeden.mongodb.net/blogPostDB");
 
 //define a schema of img
 const postSchema = new mongoose.Schema({
