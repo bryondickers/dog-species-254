@@ -1,0 +1,23 @@
+
+<%- include('partials/header'); -%>
+
+<div class="divSpecies row container">
+    <div class="col container">
+      <h1>SPECIES</h1>
+      <br>
+      <p> <%= speciesIntroPara %></p>
+   
+      <% posts.forEach(function(post){ %>
+         <br>
+         <h1> <%= post.postTitle%> </h1>
+         <img class="postedImg" src="data:image/<%=post.img.contentType%>;base64,
+         <%=post.img.data.toString('base64')%>"/>
+         <p> <%= post.postBody.slice(0,100) + "...";%> <a href="post/<%=post.postTitle%>">Read More</a> </p>
+      
+   <%});%>
+    </div>
+  
+</div>  
+
+
+<%- include('partials/footer'); -%>

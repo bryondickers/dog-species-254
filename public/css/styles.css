@@ -1,0 +1,192 @@
+body{
+    background:#0000;
+    color:#ffffff;
+}
+
+/* start of css animate */
+.animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+  }
+
+  .animate__animated.animate__heartBeat{
+    --animate-duration: 3s;
+  }
+  .animate__animated .animate__backInDown{
+    --animate-duration: 4s;
+  }
+  /* end of animate */
+
+  /* start of contact form */
+ .contactH1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+ } 
+.divForm{
+    border-radius: 5%;
+    margin: auto;
+    padding:10px;
+    width: 60%;
+    font-size: 15px;
+    background-color:#FFFDD0;
+ /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(145, 145, 72), rgb(96, 155, 96), rgb(141, 101, 141));
+ }
+ @media only screen and (max-width: 600px) {
+    .divForm{
+        width: 85%;
+    }
+    
+ }
+ .divForm form div input{
+    font-size: 15px;
+    height: 100px;
+ }
+
+/* about page css */
+.aboutDiv{
+    background: url("/images/pic6.jpg");
+    padding: 10px;
+    align-items: center;
+}
+.aboutDiv h1{
+    font-weight: bold;
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top:0px;
+}
+
+.aboutDiv .card{
+    border-radius: 10%;
+    background:#ffffff;
+    opacity:0.6;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.aboutDiv .card-header{
+   font-weight: bold;
+   font-size: 26px;
+}
+
+/* .aboutDiv .card{
+    margin:0px 3px 0px; 
+} */
+
+/* end of obout css */
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.fontSet{
+
+    font-family: 'Sofia';
+    font-size:35px;
+
+}
+
+/*start of compose form css */
+.formData{
+    font-size: 20px;
+    padding: 10px;
+}
+.formData input,.formData textarea{
+    font-size:16px;
+    margin:10px;
+}
+.formBtn{
+    color:#fff;
+    text-align:center;
+    width:140px;
+    height:40px;
+    font-size: 20px;
+
+}
+
+/* end compose of form css */
+
+.homeDiv{
+    background:#DBD7D2;
+
+}
+
+
+/* page species css */
+.postedImg{
+    margin: 25px;
+    width:200px;
+    height:auto;
+    border-radius:10%;
+}
+.divSpecies .col p{
+    
+    font-size:19px;
+    text-align:justify;
+
+}
+.divSpecies .col h1{
+    
+    font-size:25px;
+    font-weight:bold;
+
+}
+
+/* end of species css */
+.setDivPad{
+    margin-top:45px;
+    margin-bottom:45px;
+}
+.coroselImg{
+    width:100%;
+    height:auto ;
+    border-radius:10%;
+}
+
+.logo{
+    width: 110%;
+    height:110%;
+    border-radius: 70%;
+}
+
+/* start of nav css */
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+
+/* start of footer css */
+
+.footer-padding {
+	padding-bottom: 60px;
+    position: relative;
+    top: 0;
+    
+}
+
+.footer {
+    margin-bottom: 0px;
+	position: absolute;
+	text-align: center;
+	top: auto;
+	width: 100%;
+	height: 60px;
+	background-color: #263a36;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}

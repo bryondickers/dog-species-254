@@ -1,0 +1,16 @@
+<%-include("partials/header");-%>
+
+    <div class="row container divSpecies">
+        <div class="col container">
+          <h1><%=titlePost%> </h1>
+        <img class="postedImg" src="data:image/<%=imagePosted.contentType%>;base64,
+        <%=imagePosted.data.toString('base64')%>"/>
+
+        <p><%=contentPost%></p>
+
+        </div>
+    </div>
+
+    
+
+<%- include("partials/footer"); -%>
