@@ -5,12 +5,12 @@
 <form action="/compose" method="post" name="composeForm" enctype="multipart/form-data" class="formData" onsubmit="return validateForm()">
     <div class="form-group p-5">
         <label>Dog name:</label>
-        <input type="text"name="titleText" class="bg-dark form-control">
+        <input type="text"name="titleText" class="bg-dark text-white form-control">
         <label>upload dog image</label>
         <br>
         <input type="file" name="filename" class="text-white bg-dark form-control" >
         <label>Describe you dog</label>
-        <textarea class="form-control bg-dark" name="postContent"  cols="50" rows="6"></textarea>
+        <textarea class="form-control bg-dark text-white" name="postContent"  cols="50" rows="6"></textarea>
         <br>
         <button type="submit" class="btn btn-primary btn-lg formBtn bg-dark">Post</button>
     </div>
