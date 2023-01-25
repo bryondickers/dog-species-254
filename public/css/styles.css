@@ -38,6 +38,24 @@ body{
     }
     
  }
+
+ .add-dog-link{
+    font-size:16px;
+    background: green;
+    text-decoration: none;
+    height: 100px;
+    width: 200px;
+    border-radius:10%;
+    padding: 10px;
+    white-space: nowrap;
+ }
+.add-dog-link:hover{
+    text-decoration: none;
+    background: #000;
+    color: #ffff;
+}
+
+
  .divForm form div input{
     font-size: 15px;
     height: 100px;
